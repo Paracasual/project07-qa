@@ -10,7 +10,7 @@ const requestBody = {
 	]
 }
 
-test('Status code 201', async () => {
+test('Should return status code 201', async () => {
 	let actualStatusCode;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/orders`, {
@@ -28,7 +28,7 @@ test('Status code 201', async () => {
 	expect(actualStatusCode).toBe(201);
 });
 
-test('Body contains...', async () => {
+test('Body should contain "deliveryTime": "20~25"', async () => {
 	let actualResponseBody;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/orders`, {
