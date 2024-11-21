@@ -1,4 +1,4 @@
-# Sprint 7 Project - RESTful HTTP Request Testing Suite
+# Project - RESTful HTTP Request Testing Suite
 
 This project provides a series of RESTful HTTP request test suites designed to validate API responses. For each HTTP method (`GET`, `POST`, `PUT`, and `DELETE`), two types of tests are conducted:
 
